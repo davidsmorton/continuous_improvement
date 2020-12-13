@@ -1,0 +1,60 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  background: url('https://whdh.com/wp-content/uploads/sites/3/2020/08/milky-way-2695569_1920-e1598012335776.jpg');
+  background-size: cover;
+  font-family: 'Space Grotesk', sans-serif;
+  color: hsla(0, 0%, 85%, 0.7);
+
+}
+#title {
+  margin: 20px;
+  
+}
+
+#title:hover {
+  color: hsla(0, 100%, 85%, 0.6);
+}
+
+#img-caption {
+  color: hsla(0, 0%, 85%, 0.7);
+  margin: 20px;
+  font-size: 28px;
+}
+
+#img-div {
+  border: solid blue 1px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+#image {
+  border-radius: 5px;
+  max-width: 75%;
+  max-height: auto;
+ 
+}
+
+#tribute-link {
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+   color: hsla(0, 100%, 85%, 0.6);
+}
+
+#tribute-link:visited {
+   color: hsla(0, 100%, 85%, 0.6);
+}
+
+#tribute-info {
+  margin: 20px;
+  color: hsla(0, 0%, 100%, 0.85);
+  
+}
+
+
