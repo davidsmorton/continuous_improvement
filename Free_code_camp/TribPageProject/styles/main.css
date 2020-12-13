@@ -5,6 +5,7 @@
   background-size: cover;
   font-family: 'Space Grotesk', sans-serif;
   color: hsla(0, 0%, 85%, 0.7);
+  
 
 }
 #title {
@@ -57,4 +58,26 @@
   
 }
 
+#content-container {
+  display: flex;
+  flex-direction: row;
+  border: solid blue 1px;
+  align-items: start;
+  justify-content: center;
+}
+#tribute-info {
+  border: solid yellow 3px;
+  width: 50%;
+  height: 50%;
+  background: rgb(250, 252, 251, 0.1)
+}
+#team-list {
+  border: solid black 1px;
+  width: 50%;
+  height: 50%;
+  background: rgb(250, 252, 251, 0.1)
+}
+.quote {
+  margin-left: 20px;
+}
 
