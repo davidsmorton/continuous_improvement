@@ -4,80 +4,93 @@
   background: url('https://whdh.com/wp-content/uploads/sites/3/2020/08/milky-way-2695569_1920-e1598012335776.jpg');
   background-size: cover;
   font-family: 'Space Grotesk', sans-serif;
-  color: hsla(0, 0%, 85%, 0.7);
-  
-
+  color: hsla(232°, 9%, 26% 0.7);
 }
 #title {
   margin: 20px;
-  
+  background: rgb(250, 252, 251, 0.5);
+  border-radius: 5px;  
+  padding: 5px;
 }
-
-#title:hover {
-  color: hsla(0, 100%, 85%, 0.6);
-}
-
 #img-caption {
-  color: hsla(0, 0%, 85%, 0.7);
   margin: 20px;
   font-size: 28px;
+  background: rgb(250, 252, 251, 0.5);
+  border-radius: 5px; 
+  padding: 5px;
 }
 
 #img-div {
-  border: solid blue 1px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 #image {
   border-radius: 5px;
   max-width: 75%;
   max-height: auto;
- 
 }
 
 #tribute-link {
   text-decoration: none;
+  color: hsla(232°, 9%, 26% 0.7);
 }
 
 #tribute-link:hover {
-   color: hsla(0, 100%, 85%, 0.6);
+   color: hsla(232°, 9%, 26% 0.5);
 }
 
 #tribute-link:visited {
-   color: hsla(0, 100%, 85%, 0.6);
+   color: hsla(232°, 9%, 26% 0.4);
 }
 
 #tribute-info {
   margin: 20px;
-  color: hsla(0, 0%, 100%, 0.85);
-  
 }
 
 #content-container {
   display: flex;
   flex-direction: row;
-  border: solid blue 1px;
   align-items: start;
   justify-content: center;
 }
 #tribute-info {
-  border: solid yellow 3px;
+  border-radius: 5px; 
   width: 50%;
   height: 50%;
-  background: rgb(250, 252, 251, 0.1)
+  padding: 5px;
+  background: rgb(250, 252, 251, 0.50);
+  font-size: 20px  
 }
 #team-list {
-  border: solid black 1px;
+  margin: 20px;
+  border-radius: 5px;
   width: 50%;
   height: 50%;
-  background: rgb(250, 252, 251, 0.1)
+  padding: 5px;
+  background: rgb(250, 252, 251, 0.50)
 }
 .quote {
   margin-left: 20px;
+}
+.team-title {
+  margin: 5px;
+}
+
+.intro{
+  margin: 5px;
+}
+
+.time-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.time-link:hover {
+  color: hsla(232°, 9%, 26% 0.2);
 }
 
