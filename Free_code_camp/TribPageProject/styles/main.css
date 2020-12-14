@@ -71,7 +71,9 @@
   width: 50%;
   height: 50%;
   padding: 5px;
-  background: rgb(250, 252, 251, 0.50)
+  background: rgb(250, 252, 251, 0.50);
+  position: relative;
+  z-index: 1;
 }
 .quote {
   margin-left: 20px;
@@ -94,3 +96,24 @@
   color: hsla(232°, 9%, 26% 0.2);
 }
 
+#raid-pic {
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: auto;
+}
+
+#raid-pic:hover {
+  border-radius: 5px;
+  max-width: 225%;
+  max-height: auto;
+  position: relative;
+   z-index: 99999;
+}
+
+.raid-pic-caption {
+  font-size: 14px;
+}
+
+.ib-dp-caption {
+  font-size: 14px;
+}
