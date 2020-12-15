@@ -21,21 +21,71 @@ body {
 #title {
   font-family: 'Mystery Quest', sans-serif;
   color: white;
-  background: rgba(81, 99, 71, 0.5);
+  background: rgba(81, 99, 71, 0.75);
   height: 100%;
   width: 50%;
 
 }
+
 p {
   color: white;
+  font-family: roboto, sans-serif;
 }
 #survey-form {
    background: rgba(81, 99, 71, 0.5);
    padding: 10px;
+   margin: 20px;
 }
 
 .text-center {
   text-align: center;
+}
+
+#description {
+  font-size: 1.25em;
+  padding: 15px;
+}
+
+#name-label,
+#email-label,
+#number-label,
+.input-radio
+{
+  color: white;
+  font-family: roboto, sans-serif; 
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+#name-label {
+  margin: 10px;
+}
+
+#email {
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+#email-label {
+  margin: 10px;
+}
+
+#number {
+  width: 30%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#number-label {
+  margin: 10px;
 }
 
 
