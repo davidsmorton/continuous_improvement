@@ -20,14 +20,22 @@ body {
 
 #title {
   font-family: 'Mystery Quest', sans-serif;
+  color: white;
+  background: rgba(81, 99, 71, 0.5);
+  height: 100%;
+  width: 50%;
 
 }
 p {
   color: white;
 }
 #survey-form {
-   background: rgba(58,58,158, 0.5);
+   background: rgba(81, 99, 71, 0.5);
    padding: 10px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 
