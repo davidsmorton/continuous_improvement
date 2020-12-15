@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+
+
+body {
+  content: '';
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+ 
+  background-image: 
+    url(https://i.pinimg.com/originals/43/f2/28/43f2287e150fe1b49dd2a92ae37666b2.jpg
+);
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#title {
+  font-family: 'Mystery Quest', sans-serif;
+
+}
+p {
+  color: white;
+}
+#survey-form {
+   background: rgba(58,58,158, 0.5);
+   padding: 10px;
+}
+
+
