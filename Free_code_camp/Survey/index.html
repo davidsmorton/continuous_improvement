@@ -1,17 +1,23 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<div>
-  <h1 id="title">What Kind of Animal are You?</h1>
-    <p id="description">This survey will determine what kind of animal you would be if you were not a human</p>
-      <form id="survey-form">
+<div class="container">
+   <form id="survey-form">
+  <h1 id="title" class="text-center">What Kind of Animal are You?</h1>
+    <p id="description" class="text-center"> What kind of animal would you be if you weren't human?</p>
+     <div class="personal-info">
+       <div class="name-email"
         <label id="name-label" for="name">Name</label>
         <input id="name" type="text" placeholder="please enter your name" required/>
-        <label id="email-label" for="name">email</label>
+        <label id="email-label" for="name">Email</label>
         <input id="email" type="email" placeholder="please enter your email" required/>
-        <label id="number-label" for="name">Your Age Divided by 10 and Rounded Down (i.e  49)</label>
+     </div>
+        <label id="number-label" for="name">Your age divided by 10 and rounded down (i.e  49)</label>
       <input id="number" type="number" placeholder="4" min="0" max="10" required/>
-      <div class="form-group">
-        <p>How would you eat?</p>
+       </div>
+<br/>
+       <div class="form-group">
+      
+        <p class="questions">How would you eat?</p>
           <select id="dropdown" name="role" class="form-control" required>
             <option disabled selected value>Select Animal Type</option>
             <option value="omnivore">Omnivore - Meat and Veggies</option>
@@ -20,31 +26,36 @@
             <option value="other">Other</option> 
           </select>
       </div>
+<br/>
       <div>
-        <p>What Size Animal do You Think Your Father Would Be?</p>
-          <label><input name="size" value="large" type="radio" class="input-radio"/>Large</label>
-          <label><input name="size" value="medium" type="radio" class="input-radio"/>Medium</label>
-          <label><input name="size" value="small" type="radio" class="input-radio"/>Small</label>
+        <p class="questions">What size animal do you think your father would be?</p>
+          <label class="input-radio"><input name="size" value="large" type="radio" class="input-radio form-control"/>Large</label>
+          <label class="input-radio"><input name="size" value="medium" type="radio" class="input-radio"/>Medium</label>
+          <label class="input-radio"><input name="size" value="small" type="radio" class="input-radio"/>Small</label>
        </div>
+<br/>
        <div>
-        <p>Pick all that apply to your animal strengths?</p>
-          <label><input name="strengths" value="fast" type="checkbox" class="input-radio"/>I'm fast so so fast</label>
-          <label><input name="strengths" value="smart" type="checkbox" class="input-radio"/>I'm smart and can problem solve</label>
-          <label><input name="strengths" value="strong" type="checkbox" class="input-radio"/>I'm strong, very strong</label>
-          <label><input name="strengths" value="eyesight" type="checkbox" class="input-radio"/>I have excellent eyesight</label>
-          <label><input name="strengths" value="fly" type="checkbox" class="input-radio"/>I can fly</label>
-          <label><input name="strengths" value="swim" type="checkbox" class="input-radio"/>I'm a very good swimmer</label>
-        </div>
-        <br/>
-        <div>
-          <textarea 
-            id="comments"
-            class="input-textarea"
-            name="comment"
-            placeholder="Enter your additional animal traits here"></textarea>
-        </div>
-        <div>
-          <button type="submit" id="submit" class="submit-button">Submit</button>
-        </div> 
+        <p class="questions">Pick all that apply to your animal strengths?</p>
+          <label class="input-radio"><input name="strengths" value="fast" type="checkbox" class="input-radio form-control"/>I'm fast so so fast</label>
+          <label class="input-radio"><input name="strengths" value="smart" type="checkbox" class="input-radio form-control"/>I'm smart and can problem solve</label>
+          <label class="input-radio"><input name="strengths" value="strong" type="checkbox" class="input-radio form-control"/>I'm strong, very strong</label>
+          <label class="input-radio"><input name="strengths" value="eyesight" type="checkbox" class="input-radio form-control"/>I have excellent eyesight</label>
+          <label class="input-radio"><input name="strengths" value="fly" type="checkbox" class="input-radio form-control"/>I can fly</label>
+          <label class="input-radio"><input name="strengths" value="swim" type="checkbox" class="input-radio form-control"/>I'm a very good swimmer</label>
+      </div>
+      <br/>
+
+      <div>
+        <p class="questions">Did we miss some of your animal traits? Tell us!</p>
+        <textarea 
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your additional animal traits here"
+          rows="4"></textarea>
+      </div>
+      <div>
+        <button type="submit" id="submit" class="submit-button">Submit</button>
+      </div>
   </form>
 </div>
