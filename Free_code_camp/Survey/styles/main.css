@@ -44,6 +44,14 @@ p {
 #description {
   font-size: 1.25em;
   padding: 15px;
+  background: rgba(81, 99, 71, 0.5);
+}
+
+.questions {
+  font-size: 1.5em;
+  margin: 10px;
+  font-family: 'Mystery Quest', sans-serif;
+  
 }
 
 #name-label,
@@ -60,6 +68,7 @@ p {
   flex-direction: column;
 }
 
+#email,
 #name {
   width: 25%;
   margin-bottom: 10px;
@@ -69,13 +78,8 @@ p {
   margin: 10px;
 }
 
-#email {
-  width: 25%;
-  margin-bottom: 10px;
-}
-
 #email-label {
-  margin: 10px;
+  margin-left: 50px;
 }
 
 #number {
@@ -88,4 +92,12 @@ p {
   margin: 10px;
 }
 
+.input-textarea {
+  resize: none;
+  width: 59%;
+  margin-bottom: 10px;
+}
 
+.form-control {
+  margin: 10px
+}
