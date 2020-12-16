@@ -1,40 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap");
+/* #7C8C03 - md green
+#B9BF04 - light green
+#6F7302 - dk green
+#FAF4BA - very light cream
+#F4E9AE - light cream / peach
+#D9A86C - dk peach */
 
 body {
-  content: '';
+  content: "";
   position: relative;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   z-index: -1;
- 
-  background-image: 
-    url(https://i.pinimg.com/originals/43/f2/28/43f2287e150fe1b49dd2a92ae37666b2.jpg
-);
-  background-size: cover;  
+
+  background-image: url(https://i.pinimg.com/originals/43/f2/28/43f2287e150fe1b49dd2a92ae37666b2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #title {
-  font-family: 'Mystery Quest', sans-serif;
-  color: white;
-  background: rgba(81, 99, 71, 0.85);
+  font-family: "Mystery Quest", sans-serif;
+  color: hsla(54, 86%, 93%, 1);
+  background: rgba(124, 140, 3, 0.65);
   height: 100%;
   width: 50%;
-
+  padding: 5px;
 }
 
 p {
   color: white;
-  
 }
 #survey-form {
-   background: rgba(81, 99, 71, 0.65);
-   padding: 10px;
-   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(111, 115, 2, 0.6);
+  padding: 10px;
+  margin: 20px;
 }
 
 .text-center {
@@ -47,20 +51,21 @@ p {
   background: rgba(81, 99, 71, 0.5);
 }
 
+#dropdown,
+#name-label,
+#email-label,
+.input-radio {
+  color: rgba(250, 244, 186);
+  font-family: roboto, sans-serif;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
 .questions {
   font-size: 1.5em;
   margin: 10px;
-  font-family: 'Mystery Quest', sans-serif;
-  
-}
-
-#name-label,
-#email-label,
-#number-label,
-.input-radio
-{
-  color: white;
-  font-family: roboto, sans-serif; 
+  font-family: "Mystery Quest", sans-serif;
+  color: hsla(54, 86%, 93%, 1);
 }
 
 .personal-info {
@@ -94,10 +99,98 @@ p {
 
 .input-textarea {
   resize: none;
-  width: 59%;
+  width: 58%;
   margin-bottom: 10px;
+  font-family: roboto, sans-serif;
+  margin-left: 10px;
 }
 
 .form-control {
-  margin: 10px
+  margin-left: 30px;
+}
+
+::placeholder {
+  color: rgba(185, 191, 4);
+  font-size: 16px;
+}
+
+.input-textarea,
+.input-boxes {
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  background: rgba(111, 115, 2);
+}
+
+.submit-button {
+  font-size: 20px;
+  font-family: "Mystery Quest", sans-serif;
+  border-radius: 5px;
+  margin-left: 10px;
+  background: rgba(111, 115, 2);
+  color: hsla(54, 86%, 93%, 1);
+  width: 100px;
+  padding: 10px;
+}
+
+.strength-question,
+.father-question {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="radio"]:after {
+  width: 10px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="radio"]:checked:after {
+  width: 10px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d9a86c;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="checkbox"]:after {
+  width: 10px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="checkbox"]:checked:after {
+  width: 10px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d9a86c;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
 }
