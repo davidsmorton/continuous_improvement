@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+@media (max-width: 600px) {
+  background: blue;
+}
+
+.logo {
+  justify-content: center
+}
+.container {
+  display: flex;
+}
+
+.continer q {
+  font-size: 20px;
+}
+
+.scott-quote {
+  float: left;
+  display: block;
+  color: #00007f;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 2em
+}
+
+nav {
+
+}
+
+#nav-bar a {
+  float: center;
+  display: block;
+  color: #00007f;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 1.75em
+  
+}
+
+h1 {
+  background: #00007f;
+  color: white;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 3em;
+  padding: 10px
+  
+}
+li,
+p {
+  color: #00007f;
+  font-size: 30px;
+  font-family: 'Sue Ellen Francisco', cursive;
+  margin: 30px;
+  
+}
+
