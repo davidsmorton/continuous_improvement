@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
 
 @media (max-width: 600px) {
-  background: blue;
+  background-color: blue;
 }
 
 .logo {
@@ -24,10 +24,6 @@
   text-decoration: none;
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 2em
-}
-
-nav {
-
 }
 
 #nav-bar a {
