@@ -4,28 +4,26 @@
   background-color: blue;
 }
 
-.logo {
-  justify-content: center
-}
 .container {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.tag-line-logo {
   display: flex;
 }
 
-.continer q {
-  font-size: 20px;
+.break {
+  flex-basis: 100%;
+  width: 0;
 }
-
-.scott-quote {
-  float: left;
-  display: block;
-  color: #00007f;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  font-family: 'Sue Ellen Francisco', cursive;
-  font-size: 2em
-}
-
 #nav-bar a {
   float: center;
   display: block;
@@ -38,6 +36,11 @@
   
 }
 
+#nav-bar a:hover {
+  background-color: #00007f;
+  color: white;
+}
+
 h1 {
   background: #00007f;
   color: white;
@@ -46,6 +49,7 @@ h1 {
   padding: 10px
   
 }
+
 li,
 p {
   color: #00007f;
