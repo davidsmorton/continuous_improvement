@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
-
+html {
+  scroll-behavior: smooth;
+}
 @media (max-width: 600px) {
   background-color: blue;
 }
@@ -14,32 +16,47 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-}
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 2px solid #00007f;
 
+}
 .tag-line-logo {
   display: flex;
+  justify-content: space-between;
+  width: 95%;
 }
 
 .break {
   flex-basis: 100%;
-  width: 0;
+  width: 0px;
+  height: 1px
+
+}
+#nav-bar {
+  display: flex;
+
 }
 #nav-bar a {
+ 
   float: center;
   display: block;
   color: #00007f;
   text-align: center;
-  padding: 14px;
+  padding: 4px;
   text-decoration: none;
   font-family: 'Sue Ellen Francisco', cursive;
-  font-size: 1.75em
-  
+  font-size: 1.75em;
 }
+
 
 #nav-bar a:hover {
   background-color: #00007f;
   color: white;
 }
+
 
 h1 {
   background: #00007f;
@@ -47,7 +64,11 @@ h1 {
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 3em;
   padding: 10px
-  
+}
+h3 {
+   font-family: 'Sue Ellen Francisco', cursive;
+   color: #00007f;
+   font-size: 2em;
 }
 
 li,
@@ -56,6 +77,40 @@ p {
   font-size: 30px;
   font-family: 'Sue Ellen Francisco', cursive;
   margin: 30px;
+  
+}
+.scott-title {
+ padding: 15px;
+ margin: 5px;
+ color: #00007f;
+ padding: 0px;
+
+}
+#header-img {
+  height: 75%
+}
+#submit,
+#email {
+  border-radius: 5px;
+  font-size: 24px;
+  margin:30px
+}
+#video {
+  border-radius: 5px;
+  margin-left: 30px;
+}
+#section1{
+  display: flex;
+  flex-direction: column;
+}
+.scott-photo {
+  width: 40%;
+  margin-left: 30px;
+}
+
+.scott_photo-paragraph {
+  display: flex;
+  align-content: start
   
 }
 
