@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -21,7 +21,6 @@ html {
   top: 0;
   background-color: white;
   border-bottom: 2px solid #00007f;
-
 }
 .tag-line-logo {
   display: flex;
@@ -32,74 +31,67 @@ html {
 .break {
   flex-basis: 100%;
   width: 0px;
-  height: 1px
-
+  height: 1px;
 }
 #nav-bar {
   display: flex;
-
 }
 #nav-bar a {
- 
   float: center;
   display: block;
   color: #00007f;
   text-align: center;
   padding: 4px;
   text-decoration: none;
-  font-family: 'Sue Ellen Francisco', cursive;
+  font-family: "Sue Ellen Francisco", cursive;
   font-size: 1.75em;
 }
-
 
 #nav-bar a:hover {
   background-color: #00007f;
   color: white;
 }
 
-
 h1 {
   background: #00007f;
   color: white;
-  font-family: 'Sue Ellen Francisco', cursive;
+  font-family: "Sue Ellen Francisco", cursive;
   font-size: 3em;
-  padding: 10px
+  padding: 10px;
 }
 h3 {
-   font-family: 'Sue Ellen Francisco', cursive;
-   color: #00007f;
-   font-size: 2em;
+  font-family: "Sue Ellen Francisco", cursive;
+  color: #00007f;
+  font-size: 2em;
 }
 
 li,
 p {
   color: #00007f;
   font-size: 30px;
-  font-family: 'Sue Ellen Francisco', cursive;
+  font-family: "Sue Ellen Francisco", cursive;
   margin: 30px;
-  
 }
 .scott-title {
- padding: 15px;
- margin: 5px;
- color: #00007f;
- padding: 0px;
-
+  padding: 15px;
+  margin: 5px;
+  color: #00007f;
+  padding: 0px;
 }
 #header-img {
-  height: 75%
+  height: 75%;
 }
 #submit,
 #email {
   border-radius: 5px;
   font-size: 24px;
-  margin:30px
+  margin: 30px;
 }
 #video {
   border-radius: 5px;
   margin-left: 30px;
 }
-#section1{
+#section1 {
   display: flex;
   flex-direction: column;
 }
@@ -110,7 +102,5 @@ p {
 
 .scott_photo-paragraph {
   display: flex;
-  align-content: start
-  
+  align-content: start;
 }
-
