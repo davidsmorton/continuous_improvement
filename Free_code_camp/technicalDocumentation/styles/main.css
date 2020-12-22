@@ -1,0 +1,69 @@
+#navbar {
+  display:flex;
+  flex-direction: column;
+  position: fixed; 
+  min-width: 20%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-right: solid;
+  border-left: solid;
+  border-color: rgba(215, 160, 72, 0.2);
+  background:rgba(215, 160, 72, 0.9)
+}
+
+#navbar a {
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  
+  padding: 20px;
+  color: rgba(246, 244, 234, 0.9)
+}
+
+#navbar a:hover {
+  background: rgba(246, 244, 234, 0.9);
+  color: rgba(215, 160, 72, 0.9);
+ 
+}
+section header,
+#navbar header {
+  font-family: "fira sans black", sans-serif;
+  letter-spacing: 0;  
+  font-size: 22px;
+ 
+  padding: 20px;
+  color: rbga(33, 39, 33, 0.9);
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 22%;
+}
+
+
+li,
+p {
+  font-family: Montserrat, sans-serif;
+  margin-left: 20px;
+}
+
+code {
+  display: block;
+  text-align: center;
+  white-space: pre-line;
+  position: relative;
+  word-wrap: normal;
+  word-break: normal;
+  line-height: 2;
+  font-family: Montserrat, sans-serif;
+  background-color: rgba(80, 127, 112);
+  color: rgba(246, 244, 234, 0.9);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* @media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  } */
