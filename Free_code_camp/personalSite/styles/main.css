@@ -1,4 +1,31 @@
-body {
-  background: rgb(234,226,183);
-  background: linear-gradient(200deg, rgba(234,226,183,1) 0%, rgba(252,191,73,1) 10%, rgba(247,127,0,1) 21%, rgba(214,40,40,1) 53%, rgba(0,48,73,1) 78%);
-  }
+:root {
+  --main-navy: #003049;
+  --main-red: #d62828;
+  --main-orange: #f77f00;
+  --main-ltorange: #fcbf49;
+  --main-cream: #eae2b7;
+}
+
+/* base reset */
+* {
+  margin:0;
+  padding:0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html{
+  box-sizzong: border-box;
+  
+  /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
