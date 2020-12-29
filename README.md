@@ -13,10 +13,10 @@ Project: Survey
 
 Course: Responsive Design
 
-Project: Survey 
+Project: Technical Document  
 ![Technical Document](https://raw.githubusercontent.com/davidsmorton/continuous_improvement/main/Free_code_camp/media/Tech_Doc.png "Technical Document")
 
 Course: Responsive Design
 
-Project: Survey 
+Project: Service  
 ![Happi Puppi Services](https://raw.githubusercontent.com/davidsmorton/continuous_improvement/main/Free_code_camp/media/happi_puppi.png "Happi Puppi")
