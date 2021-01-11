@@ -1,18 +1,21 @@
-function caseInSwitch(val) {
+function sequentialSizes(val) {
   var answer = "";
   // Only change code below this line
   switch (val) {
     case 1:
-      return "alpha";
-      break;
     case 2:
-      return "beta";
-      break;
     case 3:
-      return "gamma";
+      return "Low";
       break;
     case 4:
-      return "delta"
+    case 5:
+    case 6:
+      return "Mid";
+      break;
+    case 7:
+    case 8:
+    case 9:
+      return "High";
       break;
   }
 
@@ -21,4 +24,4 @@ function caseInSwitch(val) {
   return answer;
 }
 
-caseInSwitch(1);
+sequentialSizes(1);
